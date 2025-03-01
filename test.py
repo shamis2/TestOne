@@ -1,7 +1,8 @@
-#python test one , write here simple code in python  .
+num = int(input("Enter a number: "))
 
+if num % 2 == 0:
+    print(num, "is even")
+else:
+    print(num, "is odd")
 
-
-NAME =  input("Enter Your NAME:")
-print("Hello Mr.", NAME)
 
